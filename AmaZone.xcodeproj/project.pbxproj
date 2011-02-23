@@ -28,6 +28,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8C909781131537D30058B741 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		8C909782131537D30058B741 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		8C90978913153BC10058B741 /* AWS_ID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWS_ID.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AmaZone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AmaZone-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* AmaZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmaZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -51,6 +52,7 @@
 				256AC3D90F4B6AC300CF3369 /* AmaZoneAppDelegate.m */,
 				8C909781131537D30058B741 /* AppController.h */,
 				8C909782131537D30058B741 /* AppController.m */,
+				8C90978913153BC10058B741 /* AWS_ID.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
