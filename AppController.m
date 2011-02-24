@@ -22,10 +22,11 @@
 	
 	NSLog(@"searchString = %@", searchString);
 	
-	NSString *urlString = [NSString stringWithFormat:@"http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&AWSAccessKeyID=%@&Operation=ItemSearch&SearchIndex=Books&Keywords=%@&Version=2007-07-16", AWS_ID, searchString];
+	NSString *urlString = [NSString stringWithFormat:@"http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&AWSAccessKeyId=%@&Operation=ItemSearch&SearchIndex=Books&Keywords=%@&Version=2007-07-16", AWS_ID, searchString];
 	
 	NSURL *url = [NSURL URLWithString:urlString];
 	NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReturnCacheDataDontLoad timeoutInterval:30];
+	[urlRequest 
 	
 	NSData *urlData;
 	NSURLResponse *response;
